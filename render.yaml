@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: rss-tv-channel
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: RSS_URL
+        sync: false
+      - key: ALLOW_QUERY_RSS
+        value: "1"

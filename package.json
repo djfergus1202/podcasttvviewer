@@ -1,0 +1,21 @@
+{
+  "name": "rss-tv-channel",
+  "version": "1.0.0",
+  "description": "Convert any RSS feed (podcast/video) into a TV-friendly HTML channel UI.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
